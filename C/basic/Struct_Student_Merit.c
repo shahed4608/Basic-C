@@ -31,10 +31,10 @@ int main()
             student[c]=temp;}
         }
     }
-
+    printf("\nMerit   Roll    Marks\n");
     for (int i = 0; i < 3; i++)
     {
-        printf("Merit:%d\tRoll:%3d\tMarks:%3.2f\n", (i+1),student[i].roll, student[i].total);
+        printf("%d\t%3d\t%3.2f\n", (i+1),student[i].roll, student[i].total);
     }
 
     return 0;
